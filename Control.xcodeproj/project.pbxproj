@@ -127,14 +127,8 @@
 			children = (
 				D117310E1986C16C00B1ACCB /* AppDelegate.h */,
 				D117310F1986C16C00B1ACCB /* AppDelegate.m */,
-				D11731111986C16C00B1ACCB /* Main_iPhone.storyboard */,
-				D11731141986C16C00B1ACCB /* Main_iPad.storyboard */,
-				D117311A1986C16C00B1ACCB /* MasterViewController.h */,
-				D117311B1986C16C00B1ACCB /* MasterViewController.m */,
-				D117311D1986C16C00B1ACCB /* DetailViewController.h */,
-				D117311E1986C16C00B1ACCB /* DetailViewController.m */,
-				D11731201986C16C00B1ACCB /* Images.xcassets */,
-				D11731171986C16C00B1ACCB /* Control.xcdatamodeld */,
+				D1822C1D1986D31D00B22DE9 /* Resources */,
+				D1822C1C1986D2A800B22DE9 /* ViewControllers */,
 				D11731061986C16C00B1ACCB /* Supporting Files */,
 			);
 			path = Control;
@@ -167,6 +161,28 @@
 				D11731311986C16C00B1ACCB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1822C1C1986D2A800B22DE9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D117311A1986C16C00B1ACCB /* MasterViewController.h */,
+				D117311B1986C16C00B1ACCB /* MasterViewController.m */,
+				D117311D1986C16C00B1ACCB /* DetailViewController.h */,
+				D117311E1986C16C00B1ACCB /* DetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D1822C1D1986D31D00B22DE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D11731111986C16C00B1ACCB /* Main_iPhone.storyboard */,
+				D11731141986C16C00B1ACCB /* Main_iPad.storyboard */,
+				D11731201986C16C00B1ACCB /* Images.xcassets */,
+				D11731171986C16C00B1ACCB /* Control.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +502,7 @@
 				D117313A1986C16C00B1ACCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D117313B1986C16C00B1ACCB /* Build configuration list for PBXNativeTarget "ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +511,7 @@
 				D117313D1986C16C00B1ACCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
